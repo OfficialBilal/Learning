@@ -13,6 +13,15 @@
 
             Console.WriteLine(str);
             Console.WriteLine(pricee);
+
+            //String Interpolation
+            int agee = 26;
+            string st = $"your age is {agee}";
+
+            Console.WriteLine($"{st} and you are from Pakistan");
+
+            Console.WriteLine(@"C:\Program Files");
+       
         }
     }
 }
