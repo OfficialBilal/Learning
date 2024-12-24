@@ -18,9 +18,11 @@ namespace Learning
             Console.WriteLine(Math.Round(pi));
             Console.WriteLine(Math.Floor(pi));
             Console.WriteLine(Math.Ceiling(pi));
+
             Console.WriteLine(Math.Clamp(15, 0, 10));
             Console.WriteLine(Math.Clamp(8, 0, 10));
             Console.WriteLine(Math.Clamp(-1, 0, 10));
+
             Console.WriteLine(Math.Abs(-5));
             Console.WriteLine(Math.Max(-5, 14));
             Console.WriteLine(Math.Min(-5, 14));
