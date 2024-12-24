@@ -1,6 +1,6 @@
 ﻿namespace Learning
 {
-    internal class StringFormating
+    class StringFormating
     {
         static void Main(string[] args)
         {
