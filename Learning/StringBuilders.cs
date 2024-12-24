@@ -13,7 +13,8 @@ namespace Learning
 
             Console.WriteLine(dstr); 
 
-            
+            Console.WriteLine($"Length: {dstr.Length}");
+            Console.WriteLine($"Capacity:{dstr.Capacity}");
         }
     }
 }
