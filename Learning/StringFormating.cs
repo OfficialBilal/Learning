@@ -21,7 +21,6 @@
             Console.WriteLine($"{st} and you are from Pakistan");
 
             Console.WriteLine(@"C:\Program Files");
-            Console.WriteLine(@"C:\Program Files");
        
         }
     }
