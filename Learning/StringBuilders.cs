@@ -11,6 +11,10 @@ namespace Learning
             dstr.Append(" message");
             dstr.Append(" .");
 
+            dstr.AppendFormat("this is append format");
+            dstr.AppendLine("Append Line");
+            dstr.Clear();
+
             Console.WriteLine(dstr); 
 
             Console.WriteLine($"Length: {dstr.Length}");
