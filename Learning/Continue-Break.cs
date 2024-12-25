@@ -20,7 +20,7 @@ namespace Learning
             // Break
             for (int b = 0; b < 10; b++)
             {
-                if (b % 2 == 0) break;
+                if (b > 5) break;
                 Console.WriteLine(b);
             }
         }
