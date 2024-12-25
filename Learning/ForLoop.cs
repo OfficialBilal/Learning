@@ -17,7 +17,7 @@ namespace Learning
                     Console.Write(i+" ");
                 }
 
-                Console.WriteLine()
+                Console.WriteLine();
             }
         }
     }
