@@ -10,8 +10,26 @@ namespace Learning
     {
         public static void Main(string[] args)
         {
+            //Example 1
+            int design = 0;
+
+            while (design < 10)
+            {
+                int a = design;
+                while (a < 10)
+                {
+                    Console.Write(a+ " ");
+                    a++;
+                }
+
+                Console.WriteLine(" ");
+                design++;
+
+            }
+
+            //Example 2
             int Counter = 0;
-            
+
             while (Counter < 50)
             {
                 Console.WriteLine($"{Counter} Bilal");
