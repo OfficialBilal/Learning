@@ -5,7 +5,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Learning.Logical_Operator</StartupObject>
+    <StartupObject>Learning.Var</StartupObject>
   </PropertyGroup>
 
 </Project>
