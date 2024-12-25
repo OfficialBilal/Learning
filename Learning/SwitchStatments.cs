@@ -26,10 +26,7 @@ namespace Learning
                     Console.WriteLine("Float");
                     break;
 
-                default:
-                    Console.WriteLine("Invalid Command");
-                    break;
-
+                
             }
         }
     }
