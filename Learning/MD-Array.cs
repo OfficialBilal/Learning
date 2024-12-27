@@ -27,7 +27,7 @@ namespace Learning
                 for (int j = 0; j < 7; j++)
                 {
                     a[i, j] = i+j;
-                    Console.Write(a[i, j]+ "");
+                    Console.Write(a[i, j]+ "\t");
                 }
                 Console.WriteLine();
             }
