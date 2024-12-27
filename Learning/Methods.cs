@@ -11,12 +11,14 @@ namespace Learning
         //Method/Function
         public static void Main(string[] args)
         {
-            NewFunction();
+            string newname = "Ali";
+
+            NewFunction(newname);
         }
 
-        static void NewFunction()
+        static void NewFunction(string Name)
         {
-            Console.WriteLine("I am from a new Funtion/Method");
+            Console.WriteLine($"Hi, {Name} i am from another Funtion/Method");
         }
     }
 }
