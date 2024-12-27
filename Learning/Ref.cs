@@ -24,7 +24,7 @@ namespace Learning
 
         static void A(ref int r)
         {
-            Console.WriteLine(r)
+            Console.WriteLine(r);
         }
     }
 }
