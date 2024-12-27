@@ -20,11 +20,11 @@ namespace Learning
              
              Console.WriteLine(num[1, 2]);
 
-            int[,] a = new int[9, 7];
+            int[,] a = new int[5, 10];
 
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < a.GetLength(0); i++)
             {
-                for (int j = 0; j < 7; j++)
+                for (int j = 0; j < a.GetLength(1); j++)
                 {
                     a[i, j] = i+j;
                     Console.Write(a[i, j]+ "\t");
