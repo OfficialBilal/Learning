@@ -13,6 +13,13 @@ namespace Learning
         public byte Age = 0;
 
         abstract public void Talk();
+
+        static public ulong Count = 0UL;
+
+        public Person()
+        {
+            Count++;
+        }
         
     }
 
@@ -22,13 +29,23 @@ namespace Learning
         {
             Console.WriteLine("Person Can Talk");
         }
-}
+
+        public Doctor() : base()
+        {
+
+        }
+    }
 
     class Patient : Person
     {
         public override void Talk()
         {
             Console.WriteLine("Person Can Talk");
+        }
+
+        public Patient() : base()
+        {
+
         }
     }
 }
