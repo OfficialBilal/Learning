@@ -10,7 +10,7 @@ namespace Learning
     {
         public static void Main(string[] args)
         {
-            Person person = new Person();
+            Person1 person = new Person1();
 
             person.Name = "Bilal";
 
@@ -21,7 +21,7 @@ namespace Learning
 
         }
 
-        class Person
+        class Person1
         {
             public string Name = "";
 
